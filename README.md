@@ -114,10 +114,11 @@ The complete processing run produced approximately 4.16 million inventor records
 
 The final dataset contains three primary columns:
 
-Column	Description
+```file Column	Description
 Inventor Name	Disambiguated inventor name
 Patent List	Associated patent identifiers
 CPC Classes	CPC classifications associated with the inventor's patents
+```
 
 A compressed version of the complete output was generated separately because of its large size.
 
@@ -154,7 +155,7 @@ Contains testing and validation code used during development to verify the proce
 
 Prevents large USPTO datasets, generated outputs, Python cache files, and other non-source artifacts from being committed to the repository.
 
-##Technologies
+```file Technologies
 Python
 Pandas
 USPTO PatentsView Bulk Data
@@ -163,7 +164,7 @@ Data Integration
 Relational Data Processing
 Large-Scale Data Processing
 Reproducibility
-
+```
 The raw USPTO datasets are not included in this repository because of their large file sizes.
 
 To reproduce the analysis:

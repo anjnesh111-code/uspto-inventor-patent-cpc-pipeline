@@ -140,6 +140,7 @@ USPTO/
 ├── etl.py
 ├── pipeline.py
 ├── test.py
+|──inventor_cpc_patents_sample_output
 └── LICENSE
 ```
 
